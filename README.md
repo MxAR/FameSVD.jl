@@ -1,5 +1,5 @@
 # FameSVD 
-
+[![Build Status](https://api.travis-ci.org/MxAR/FameSVD.jl.svg?branch=master)](https://travis-ci.com/MxAR/FameSVD.jl)
 ## Introduction 
 This package provides an implementation of the FameSVD algorithm via the BLAS and LAPACK routines `syrk`, `syevr` and `gemm`, The provided method is faster than the SVD algorithm used in the Julia standard library and as shown in the paper faster than the Krylov-Method and Randomized-PCA.
 
